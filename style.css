@@ -17,46 +17,53 @@ p{
 }
 main{
   text-align: center;
-}
-img{
-  margin-top: 150px;
-}
-.smileimg {
   background-color: #66ba9e;
-  height: 750px;
-  margin-top: 35px;
-}
-.rowstar{
-  text-align: center;
-  color: #ffffff;
-  width: 100px;
-  margin: 0 auto;
-}
-h1{
-  font-size: 30;
 
 }
-h2{
-  font-size: 10;
+.containersmile{
+  width: 100%;
+  height: 100vh;
+  background-color: #66ba9e;
+
+}
+.smileimg{
+  background-color: #66ba9e;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+img{
+  margin-top:100px;
+
+}
+h1{
+  color: #ffffff;
+  text-align: center;
+  margin: 35px;
+
 }
 .fa-star{
   font-size: 35px;
   color: #ffffff;
   margin-bottom: 5px;
   text-align: center;
-  position: relative;
+
 }
-.left-line{
+.right-line, .left-line{
   border-top: 2px solid #ffffff;
   width: 100px;
-  margin: 0 auto;
-  background-color: red;
-  float: left;
+  margin-top: 20px;
+  height: 2px;
+
 }
-.right-line{
-  border-top: 2px solid #ffffff;
+
+.star{
   width: 100px;
-  margin: 0 auto;;
-  background-color: yellow;
-  float: left;
+  padding-bottom: 10px;
+
+}
+.starmd{
+  margin-left: 25%;
+
 }
